@@ -83,7 +83,7 @@ resources:
           description: Valor identificado em análise, que se refere ao valor que se é pago referente a despesa médica identificada
         - name: valor_apresentado
           type: string
-          title:Valor Apresentado
+          title: Valor Apresentado
           description: Valor apresentado pelo solicitante, referente ao valor pago pela consulta.
         - name: valor_total_pagar
           type: string
