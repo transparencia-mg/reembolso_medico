@@ -1,0 +1,259 @@
+{
+  "version": "4.16.6",
+  "time": 0.057,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "sisd_reembolso",
+        "path": "data/SISD_reembolso.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "processo",
+              "type": "integer"
+            },
+            {
+              "name": "data_recebimento",
+              "type": "date"
+            },
+            {
+              "name": "status_processo",
+              "type": "string"
+            },
+            {
+              "name": "data_cadastro",
+              "type": "date"
+            },
+            {
+              "name": "mes_ano_cadastro",
+              "type": "date"
+            },
+            {
+              "name": "item_servico",
+              "type": "integer"
+            },
+            {
+              "name": "descricao_item",
+              "type": "string"
+            },
+            {
+              "name": "tipo_item",
+              "type": "string"
+            },
+            {
+              "name": "item_especial",
+              "type": "string"
+            },
+            {
+              "name": "data_servico",
+              "type": "date"
+            },
+            {
+              "name": "municipio_atendimento",
+              "type": "string"
+            },
+            {
+              "name": "codigo_prestador",
+              "type": "integer"
+            },
+            {
+              "name": "nome_prestador",
+              "type": "string"
+            },
+            {
+              "name": "situacao_prestador",
+              "type": "string"
+            },
+            {
+              "name": "parecer_administrativo",
+              "type": "string"
+            },
+            {
+              "name": "parecer_tecnico",
+              "type": "string"
+            },
+            {
+              "name": "valor_apurado",
+              "type": "string"
+            },
+            {
+              "name": "valor_apresentado",
+              "type": "string"
+            },
+            {
+              "name": "valor_total_pagar",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "bb9fa79c59df23f9bff98505345a2049",
+          "bytes": 44364,
+          "fields": 19,
+          "rows": 159
+        }
+      },
+      "time": 0.035,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "64008NEG",
+          "fieldName": "item_servico",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "cells": [
+            "45641",
+            "2025-02-25",
+            "PROCESSO INDEFERIDO",
+            "2025-02-27",
+            "2025-02-01",
+            "64008NEG",
+            "PROCEDIMENTO/EXAME/TRATAMENTO NAO PREVISTO NA TABELA DE HONORARIOS E SERVICOS PARA AREA DE SAUDE IPSEMG",
+            "PROCESP",
+            "SIM",
+            "2024-11-29",
+            "BETIM",
+            "4105213",
+            "HOSPITAL MATER DEI S.A",
+            "SEM CONTRATO ATIVO NA DATA DO SERVICO",
+            "INDEFERIDO",
+            "INDEFERIDO",
+            "0,0",
+            "778,0",
+            "0,0"
+          ],
+          "rowNumber": 96,
+          "rowPosition": 97,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"64008NEG\" in row \"97\" and field \"item_servico\" at position \"6\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "64008NEG",
+          "fieldName": "item_servico",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "cells": [
+            "45563",
+            "2025-02-10",
+            "PROCESSO INDEFERIDO",
+            "2025-02-21",
+            "2025-02-01",
+            "64008NEG",
+            "PROCEDIMENTO/EXAME/TRATAMENTO NAO PREVISTO NA TABELA DE HONORARIOS E SERVICOS PARA AREA DE SAUDE IPSEMG",
+            "PROCESP",
+            "SIM",
+            "2025-02-10",
+            "POUSO ALEGRE",
+            "8586",
+            "INDIANARA DE ALMEIDA MORAIS REIS",
+            "SEM CONTRATO ATIVO NA DATA DO SERVICO",
+            "INDEFERIDO",
+            "INDEFERIDO",
+            "0,0",
+            "2000,0",
+            "0,0"
+          ],
+          "rowNumber": 147,
+          "rowPosition": 148,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"64008NEG\" in row \"148\" and field \"item_servico\" at position \"6\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "64008NEG",
+          "fieldName": "item_servico",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "cells": [
+            "45545",
+            "2024-12-30",
+            "PAGAMENTO GERADO",
+            "2025-02-20",
+            "2025-02-01",
+            "64008NEG",
+            "PROCEDIMENTO/EXAME/TRATAMENTO NAO PREVISTO NA TABELA DE HONORARIOS E SERVICOS PARA AREA DE SAUDE IPSEMG",
+            "PROCESP",
+            "SIM",
+            "2024-12-19",
+            "MURIAE",
+            "7649",
+            "THAINARA FARIAS DE SOUZA SILVA",
+            "SEM CONTRATO ATIVO NA DATA DO SERVICO",
+            "INDEFERIDO",
+            "INDEFERIDO",
+            "0,0",
+            "1200,0",
+            "0,0"
+          ],
+          "rowNumber": 153,
+          "rowPosition": 154,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"64008NEG\" in row \"154\" and field \"item_servico\" at position \"6\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        }
+      ],
+      "stats": {
+        "errors": 3
+      },
+      "valid": false
+    }
+  ],
+  "stats": {
+    "errors": 3,
+    "tasks": 1
+  },
+  "valid": false
+}
