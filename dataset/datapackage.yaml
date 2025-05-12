@@ -68,15 +68,15 @@ resources:
         - name: situacao_prestador
           type: string
           title: Situação do Prestador
-          description: Categoria do prestador que executou o serviço (valores: SEM CONTRATO ATIVO NA DATA DO SERVICO/ PRESTADOR COM CONTRATO VIGENTE NA DATA DO SERVICO)
+          description: Categoria do prestador que executou o serviço (valores SEM CONTRATO ATIVO NA DATA DO SERVICO/ PRESTADOR COM CONTRATO VIGENTE NA DATA DO SERVICO)
         - name: parecer_administrativo
           type: string
           title: Parecer Administrativo
-          description: Parecer Administrativo (valores: Deferido/indeferido)
+          description: Parecer Administrativo (valores Deferido/indeferido)
         - name: parecer_tecnico
           type: string
           title: Parecer Técnico
-          description: Parecer técnico (valores: Deferido/indeferido)
+          description: Parecer técnico (valores Deferido/indeferido)
         - name: valor_apurado
           type: string
           title: Valor Apurado
