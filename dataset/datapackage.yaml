@@ -9,7 +9,7 @@ resources:
     format: csv
     hashing: md5
     name: sisd_reembolso
-    path: data/reembolso.csv
+    path: data/SISD_reembolso.csv
     profile: tabular-data-resource
     schema:
       fields:
