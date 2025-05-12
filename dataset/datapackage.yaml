@@ -91,4 +91,4 @@ resources:
           description: Valor pago pelo reembolso, em reais, conforme legislação aplicável
     scheme: file
     title: Reembolso Médico
-title: Reembolso_medico
+title: Reembolso Médico
