@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.057,
+  "time": 0.053,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "description": "Base de dados que informa número de reembolsos pagos, mensalmente, por processo solicitado.",
         "dialect": {
           "delimiter": ";"
         },
@@ -19,84 +19,122 @@
           "fields": [
             {
               "name": "processo",
-              "type": "integer"
+              "type": "integer",
+              "title": "Numero do Processo",
+              "description": "identificador do processo de solicitação"
             },
             {
               "name": "data_recebimento",
-              "type": "date"
+              "type": "date",
+              "title": "Data de Recebimento",
+              "description": "Data de ocorrência do recebimento do processo/requerimento (formado dd/mm/aaaa)"
             },
             {
               "name": "status_processo",
-              "type": "string"
+              "type": "string",
+              "title": "Status do Processo",
+              "description": "Classificação do processo(Valores Pagamento Gerado, Processo Indeferido)"
             },
             {
               "name": "data_cadastro",
-              "type": "date"
+              "type": "date",
+              "title": "Data de Cadastro",
+              "description": "A data de cadastro corresponde àquela data registrada no sistema SISD"
             },
             {
               "name": "mes_ano_cadastro",
-              "type": "date"
+              "type": "date",
+              "title": "Mês e Ano de Cadastro",
+              "description": "Referência ao mês e ao ano, também corresponde àquela informada no requerimento e válida no sistema SISD"
             },
             {
               "name": "item_servico",
-              "type": "integer"
+              "type": "integer",
+              "title": "Item de Serviço",
+              "description": "O item de serviço diz respeito ao código identificador do procedimento submetido para reembolso."
             },
             {
               "name": "descricao_item",
-              "type": "string"
+              "type": "string",
+              "title": "Descrição do item",
+              "description": "Detalhamento do Item de serviço que consta na tabela"
             },
             {
               "name": "tipo_item",
-              "type": "string"
+              "type": "string",
+              "title": "Tipo do item",
+              "description": "Trata-se da Terminologia Unificada da Saúde Suplementar (TUSS) é a padronização dos códigos e nomenclatura dos procedimentos médicos realizado pela ANS. O código TUSS é obrigatório para a troca de informações entre prestadores e operadoras de serviços de saúde. Na sua ausência se enquada Procedimento Especial (PROCEDESP)."
             },
             {
               "name": "item_especial",
-              "type": "string"
+              "type": "string",
+              "title": "Item Epecial",
+              "description": "Utilizado para lançar processo de indeferimento"
             },
             {
               "name": "data_servico",
-              "type": "date"
+              "type": "date",
+              "title": "Data execução do serviço",
+              "description": "Data de ocorrência médico hospitalar (formado dd/mm/aaaa)"
             },
             {
               "name": "municipio_atendimento",
-              "type": "string"
+              "type": "string",
+              "title": "Município de atendimento",
+              "description": "Município no qual o atendimento foi realizado"
             },
             {
               "name": "codigo_prestador",
-              "type": "integer"
+              "type": "integer",
+              "title": "Código do Prestador",
+              "description": "Código referente ao prestador do serviço no sistema"
             },
             {
               "name": "nome_prestador",
-              "type": "string"
+              "type": "string",
+              "title": "Nome do Prestador",
+              "description": "Razão Social do prestador de serviço"
             },
             {
               "name": "situacao_prestador",
-              "type": "string"
+              "type": "string",
+              "title": "Situação do Prestador",
+              "description": "Categoria do prestador que executou o serviço (valores SEM CONTRATO ATIVO NA DATA DO SERVICO/ PRESTADOR COM CONTRATO VIGENTE NA DATA DO SERVICO)"
             },
             {
               "name": "parecer_administrativo",
-              "type": "string"
+              "type": "string",
+              "title": "Parecer Administrativo",
+              "description": "Parecer Administrativo (valores Deferido/indeferido)"
             },
             {
               "name": "parecer_tecnico",
-              "type": "string"
+              "type": "string",
+              "title": "Parecer Técnico",
+              "description": "Parecer técnico (valores Deferido/indeferido)"
             },
             {
               "name": "valor_apurado",
-              "type": "string"
+              "type": "string",
+              "title": "Valor Apurado",
+              "description": "Valor identificado em análise, que se refere ao valor que se é pago referente a despesa médica identificada"
             },
             {
               "name": "valor_apresentado",
-              "type": "string"
+              "type": "string",
+              "title": "Valor Apresentado",
+              "description": "Valor apresentado pelo solicitante, referente ao valor pago pela consulta."
             },
             {
               "name": "valor_total_pagar",
-              "type": "string"
+              "type": "string",
+              "title": "Valor Total a pagar",
+              "description": "Valor pago pelo reembolso, em reais, conforme legislação aplicável"
             }
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Reembolso Médico",
         "stats": {
           "hash": "bb9fa79c59df23f9bff98505345a2049",
           "bytes": 44364,
@@ -104,7 +142,7 @@
           "rows": 159
         }
       },
-      "time": 0.035,
+      "time": 0.036,
       "scope": [
         "hash-count-error",
         "byte-count-error",
