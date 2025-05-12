@@ -2,14 +2,14 @@ name: reembolso_medico
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Base de dados que informa número de reembolsos pagos, mensalmente, por processo solicitado. 
     dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
     hashing: md5
     name: sisd_reembolso
-    path: data/SISD_reembolso.csv
+    path: data/reembolso.csv
     profile: tabular-data-resource
     schema:
       fields:
@@ -90,5 +90,5 @@ resources:
           title: Valor Total a pagar
           description: Valor pago pelo reembolso, em reais, conforme legislação aplicável
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Reembolso Médico
 title: Reembolso_medico
