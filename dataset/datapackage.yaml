@@ -24,7 +24,7 @@ resources:
         - name: status_processo
           type: string
           title: Status do Processo
-          description: Classificação do processo(Valores: Pagamento Gerado, Processo Indeferido)
+          description: Classificação do processo(Valores Pagamento Gerado, Processo Indeferido)
         - name: data_cadastro
           type: date
           title: Data de Cadastro
