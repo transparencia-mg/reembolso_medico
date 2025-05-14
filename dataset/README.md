@@ -1,4 +1,3 @@
-Conjunto de dados que informa número de reembolsos pagos, mensalmente, por processo solicitado. 
+Conjunto de dados que apresenta o número de reembolsos pagos mensalmente, por processo solicitado.
 
-O benefício é um direito realizado a partir da requisição de retorno de despesas médico-hospitalares em razão de gastos 
-realizados em caráter particular com atendimento médico/hospitalar, desde que atenda aos requisitos do Decreto nº 48.981 de 17/01/2025.
+O benefício consiste no reembolso de despesas médico-hospitalares efetuadas em caráter particular, mediante solicitação formal do interessado. A concessão está condicionada ao cumprimento dos requisitos estabelecidos no Decreto nº 48.981, de 17 de janeiro de 2025.
