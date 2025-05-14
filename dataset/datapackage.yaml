@@ -16,7 +16,7 @@ resources:
         - name: processo
           type: integer
           title: Numero do Processo
-          description: identificador do processo de solicitação
+          description: Identificador do processo de solicitação
         - name: data_recebimento
           type: date
           title: Data de Recebimento
@@ -24,19 +24,23 @@ resources:
         - name: status_processo
           type: string
           title: Status do Processo
-          description: Classificação do processo(Valores Pagamento Gerado, Processo Indeferido)
+          description: Classificação do processo
+          constraints:
+              enum:
+              - Pagamento gerado
+              - Processo Indeferido
         - name: data_cadastro
           type: date
           title: Data de Cadastro
-          description: A data de cadastro corresponde àquela data registrada no sistema SISD
+          description: Data de cadastro registrada no sistema SISD
         - name: mes_ano_cadastro
           type: date
           title: Mês e Ano de Cadastro
-          description: Referência ao mês e ao ano, também corresponde àquela informada no requerimento e válida no sistema SISD
+          description: Referência ao mês e ao ano informada no requerimento e válida no sistema SISD
         - name: item_servico
           type: integer
           title: Item de Serviço
-          description: O item de serviço diz respeito ao código identificador do procedimento submetido para reembolso. 
+          description: Código identificador do procedimento submetido para reembolso. 
         - name: descricao_item
           type: string
           title: Descrição do item
@@ -68,15 +72,27 @@ resources:
         - name: situacao_prestador
           type: string
           title: Situação do Prestador
-          description: Categoria do prestador que executou o serviço (valores SEM CONTRATO ATIVO NA DATA DO SERVICO/ PRESTADOR COM CONTRATO VIGENTE NA DATA DO SERVICO)
+          description: Categoria do prestador que executou o serviço
+          constraints:
+              enum:
+              - Sem Contrato ativo na data do serviço
+              - Prestador com contrato vigente na data do serviço
         - name: parecer_administrativo
           type: string
           title: Parecer Administrativo
-          description: Parecer Administrativo (valores Deferido/indeferido)
+          description: Parecer Administrativo 
+          constraints:
+              enum:
+              - Deferido
+              - Indeferido
         - name: parecer_tecnico
           type: string
           title: Parecer Técnico
-          description: Parecer técnico (valores Deferido/indeferido)
+          description: Parecer técnico
+          constraints:
+              enum:
+              - Deferido
+              - Indeferido
         - name: valor_apurado
           type: string
           title: Valor Apurado
