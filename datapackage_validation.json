@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.078,
+  "time": 0.086,
   "errors": [],
   "tasks": [
     {
@@ -47,7 +47,7 @@
               "description": "Data de cadastro registrada no sistema SISD"
             },
             {
-              "name": "mes_ano_cadastro",
+              "name": "mes_ano_do_cadastro",
               "type": "date",
               "title": "Mês e Ano de Cadastro",
               "description": "Referência ao mês e ao ano informada no requerimento e válida no sistema SISD"
@@ -165,7 +165,7 @@
           "rows": 0
         }
       },
-      "time": 0.062,
+      "time": 0.069,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -226,45 +226,6 @@
           "note": "",
           "message": "There is a missing label in the header's field \"valor_total_pagar\" at position \"19\"",
           "description": "Based on the schema there should be a label that is missing in the data's header."
-        },
-        {
-          "label": "mes_ano_do_cadastro",
-          "fieldName": "mes_ano_cadastro",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "labels": [
-            "processo",
-            "data_recebimento",
-            "status_processo",
-            "data_cadastro",
-            "mes_ano_do_cadastro",
-            "item_servico",
-            "descricao_item",
-            "tipo_item",
-            "item_especial",
-            "data_servico",
-            "municipio_atendimento",
-            "codigo_prestador",
-            "nome_prestador",
-            "parecer_administrativo",
-            "parecer_tecnico",
-            "valor_apurado",
-            "valor_apresentado",
-            "valor_total_pagar"
-          ],
-          "rowPositions": [
-            1
-          ],
-          "code": "incorrect-label",
-          "name": "Incorrect Label",
-          "tags": [
-            "#table",
-            "#header",
-            "#label"
-          ],
-          "note": "",
-          "message": "Label \"mes_ano_do_cadastro\" in field mes_ano_cadastro at position \"5\" does not match the field name in the schema",
-          "description": "One of the data source header does not match the field name defined in the schema."
         },
         {
           "label": "parecer_administrativo",
@@ -577,7 +538,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -610,7 +571,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"2\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"2\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -919,7 +880,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -952,7 +913,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"3\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"3\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1261,7 +1222,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -1294,7 +1255,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"4\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"4\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1603,7 +1564,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -1636,7 +1597,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"5\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"5\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1945,7 +1906,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -1978,7 +1939,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"6\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"6\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2287,7 +2248,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -2320,7 +2281,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"7\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"7\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2629,7 +2590,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -2662,7 +2623,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"8\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"8\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2971,7 +2932,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -3004,7 +2965,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"9\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"9\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3313,7 +3274,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -3346,7 +3307,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"10\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"10\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3655,7 +3616,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -3688,7 +3649,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"11\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"11\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3997,7 +3958,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -4030,7 +3991,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"12\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"12\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4339,7 +4300,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -4372,7 +4333,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"13\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"13\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4681,7 +4642,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -4714,7 +4675,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"14\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"14\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5023,7 +4984,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -5056,7 +5017,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"15\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"15\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5365,7 +5326,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -5398,7 +5359,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"16\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"16\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5707,7 +5668,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -5740,7 +5701,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"17\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"17\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6049,7 +6010,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -6082,7 +6043,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"18\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"18\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6391,7 +6352,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -6424,7 +6385,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"19\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"19\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6733,7 +6694,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -6766,7 +6727,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"20\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"20\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -7075,7 +7036,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -7108,7 +7069,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"21\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"21\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -7417,7 +7378,7 @@
         },
         {
           "cell": "03/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -7450,7 +7411,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"03/2026\" in row \"22\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"03/2026\" in row \"22\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -7759,7 +7720,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -7792,7 +7753,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"23\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"23\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -8101,7 +8062,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -8134,7 +8095,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"24\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"24\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -8443,7 +8404,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -8476,7 +8437,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"25\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"25\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -8785,7 +8746,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -8818,7 +8779,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"26\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"26\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -9127,7 +9088,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -9160,7 +9121,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"27\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"27\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -9507,7 +9468,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -9540,7 +9501,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"28\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"28\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -9849,7 +9810,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -9882,7 +9843,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"29\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"29\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -10191,7 +10152,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -10224,7 +10185,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"30\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"30\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -10533,7 +10494,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -10566,7 +10527,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"31\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"31\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -10875,7 +10836,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -10908,7 +10869,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"32\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"32\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -11217,7 +11178,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -11250,7 +11211,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"33\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"33\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -11559,7 +11520,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -11592,7 +11553,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"34\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"34\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -11901,7 +11862,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -11934,7 +11895,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"35\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"35\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -12243,7 +12204,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -12276,7 +12237,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"36\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"36\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -12623,7 +12584,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -12656,7 +12617,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"37\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"37\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -12965,7 +12926,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -12998,7 +12959,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"38\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"38\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -13345,7 +13306,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -13378,7 +13339,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"39\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"39\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -13687,7 +13648,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -13720,7 +13681,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"40\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"40\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -14029,7 +13990,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -14062,7 +14023,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"41\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"41\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -14371,7 +14332,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -14404,7 +14365,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"42\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"42\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -14713,7 +14674,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -14746,7 +14707,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"43\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"43\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -15055,7 +15016,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -15088,7 +15049,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"44\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"44\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -15397,7 +15358,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -15430,7 +15391,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"45\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"45\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -15739,7 +15700,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -15772,7 +15733,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"46\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"46\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -16119,7 +16080,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -16152,7 +16113,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"47\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"47\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -16461,7 +16422,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -16494,7 +16455,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"48\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"48\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -16841,7 +16802,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -16874,7 +16835,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"49\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"49\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -17183,7 +17144,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -17216,7 +17177,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"50\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"50\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -17563,7 +17524,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -17596,7 +17557,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"51\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"51\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -17943,7 +17904,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -17976,7 +17937,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"52\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"52\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -18285,7 +18246,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -18318,7 +18279,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"53\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"53\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -18627,7 +18588,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -18660,7 +18621,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"54\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"54\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -18969,7 +18930,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -19002,7 +18963,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"55\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"55\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -19311,7 +19272,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -19344,7 +19305,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"56\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"56\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -19691,7 +19652,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -19724,7 +19685,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"57\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"57\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -20071,7 +20032,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -20104,7 +20065,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"58\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"58\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -20413,7 +20374,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -20446,7 +20407,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"59\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"59\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -20755,7 +20716,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -20788,7 +20749,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"60\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"60\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -21135,7 +21096,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -21168,7 +21129,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"61\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"61\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -21515,7 +21476,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -21548,7 +21509,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"62\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"62\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -21857,7 +21818,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -21890,7 +21851,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"63\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"63\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -22199,7 +22160,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -22232,7 +22193,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"64\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"64\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -22541,7 +22502,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -22574,7 +22535,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"65\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"65\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -22883,7 +22844,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -22916,7 +22877,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"66\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"66\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -23225,7 +23186,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -23258,7 +23219,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"67\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"67\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -23567,7 +23528,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -23600,7 +23561,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"68\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"68\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -23909,7 +23870,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -23942,7 +23903,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"69\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"69\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24251,7 +24212,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -24284,7 +24245,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"70\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"70\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24631,7 +24592,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -24664,7 +24625,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"71\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"71\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24973,7 +24934,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -25006,7 +24967,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"72\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"72\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25315,7 +25276,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -25348,7 +25309,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"73\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"73\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25657,7 +25618,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -25690,7 +25651,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"74\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"74\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25999,7 +25960,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -26032,7 +25993,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"75\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"75\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26341,7 +26302,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -26374,7 +26335,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"76\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"76\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26683,7 +26644,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -26716,7 +26677,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"77\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"77\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27025,7 +26986,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -27058,7 +27019,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"78\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"78\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27367,7 +27328,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -27400,7 +27361,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"79\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"79\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27709,7 +27670,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -27742,7 +27703,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"80\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"80\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -28089,7 +28050,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -28122,7 +28083,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"81\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"81\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -28469,7 +28430,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -28502,7 +28463,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"82\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"82\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -28849,7 +28810,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -28882,7 +28843,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"83\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"83\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -29191,7 +29152,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -29224,7 +29185,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"84\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"84\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -29533,7 +29494,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -29566,7 +29527,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"85\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"85\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -29875,7 +29836,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -29908,7 +29869,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"86\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"86\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -30255,7 +30216,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -30288,7 +30249,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"87\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"87\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -30597,7 +30558,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -30630,7 +30591,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"88\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"88\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -30939,7 +30900,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -30972,7 +30933,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"89\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"89\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -31281,7 +31242,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -31314,7 +31275,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"90\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"90\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -31623,7 +31584,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -31656,7 +31617,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"91\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"91\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -31965,7 +31926,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -31998,7 +31959,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"92\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"92\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -32307,7 +32268,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -32340,7 +32301,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"93\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"93\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -32687,7 +32648,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -32720,7 +32681,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"94\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"94\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -33067,7 +33028,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -33100,7 +33061,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"95\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"95\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -33447,7 +33408,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -33480,7 +33441,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"96\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"96\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -33827,7 +33788,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -33860,7 +33821,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"97\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"97\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -34207,7 +34168,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -34240,7 +34201,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"98\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"98\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -34587,7 +34548,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -34620,7 +34581,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"99\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"99\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -34967,7 +34928,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -35000,7 +34961,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"100\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"100\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -35347,7 +35308,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -35380,7 +35341,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"101\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"101\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -35727,7 +35688,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -35760,7 +35721,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"102\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"102\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -36107,7 +36068,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -36140,7 +36101,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"103\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"103\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -36487,7 +36448,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -36520,7 +36481,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"104\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"104\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -36867,7 +36828,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -36900,7 +36861,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"105\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"105\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -37247,7 +37208,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -37280,7 +37241,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"106\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"106\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -37589,7 +37550,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -37622,7 +37583,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"107\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"107\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -37931,7 +37892,7 @@
         },
         {
           "cell": "02/2026",
-          "fieldName": "mes_ano_cadastro",
+          "fieldName": "mes_ano_do_cadastro",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -37964,7 +37925,7 @@
             "#cell"
           ],
           "note": "type is \"date/default\"",
-          "message": "Type error in the cell \"02/2026\" in row \"108\" and field \"mes_ano_cadastro\" at position \"5\": type is \"date/default\"",
+          "message": "Type error in the cell \"02/2026\" in row \"108\" and field \"mes_ano_do_cadastro\" at position \"5\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -38194,6 +38155,44 @@
           "note": "type is \"date/default\"",
           "message": "Type error in the cell \"09/02/2026\" in row \"109\" and field \"data_recebimento\" at position \"2\": type is \"date/default\"",
           "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "PAGAMENTO GERADO",
+          "fieldName": "status_processo",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "cells": [
+            "51129",
+            "09/02/2026",
+            "PAGAMENTO GERADO",
+            "09/02/2026",
+            "02/2026",
+            "10101013",
+            "CONSULTA MEDICA EM CONSULTORIO (NO HORARIO NORMAL OU PRE-ESTABELECIDO) - PESSOA JURIDICA",
+            "TUSS",
+            "NÃO",
+            "12/12/2025",
+            "ITABIRA",
+            "9703",
+            "GCTP SERVICOS MEDICOS ESPECIALIZADOS LTDA",
+            "DEFERIDO",
+            "DEFERIDO",
+            "55,0",
+            "300,0",
+            "55,0"
+          ],
+          "rowNumber": 108,
+          "rowPosition": 109,
+          "code": "constraint-error",
+          "name": "Constraint Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "constraint \"enum\" is \"['Pagamento gerado', 'Processo Indeferido']\"",
+          "message": "The cell \"PAGAMENTO GERADO\" in row at position \"109\" and field \"status_processo\" at position \"3\" does not conform to a constraint: constraint \"enum\" is \"['Pagamento gerado', 'Processo Indeferido']\"",
+          "description": "A field value does not conform to a constraint."
         }
       ],
       "stats": {
