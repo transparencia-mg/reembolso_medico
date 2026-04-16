@@ -46,7 +46,7 @@
             "description": "Data de cadastro registrada no sistema SISD"
           },
           {
-            "name": "mes_ano_cadastro",
+            "name": "mes_ano_do_cadastro",
             "type": "date",
             "title": "Mês e Ano de Cadastro",
             "description": "Referência ao mês e ao ano informada no requerimento e válida no sistema SISD"
