@@ -2,8 +2,7 @@ name: ipsemg_reembolso_medico
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -50,5 +49,5 @@ resources:
         - name: valor_total_pagar
           type: geopoint
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Ipsemg_reembolso_medico
+    title: Reembolso Médico
+title: IPSEMG Reembolso Médico
