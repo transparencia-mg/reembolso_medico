@@ -1,0 +1,54 @@
+name: ipsemg_reembolso_medico
+owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: reembolso_medico
+    path: data/reembolso_medico.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: processo
+          type: integer
+        - name: data_recebimento
+          type: string
+        - name: status_processo
+          type: string
+        - name: data_cadastro
+          type: string
+        - name: mes_ano_do_cadastro
+          type: string
+        - name: item_servico
+          type: string
+        - name: descricao_item
+          type: string
+        - name: tipo_item
+          type: string
+        - name: item_especial
+          type: string
+        - name: data_servico
+          type: string
+        - name: municipio_atendimento
+          type: string
+        - name: codigo_prestador
+          type: integer
+        - name: nome_prestador
+          type: string
+        - name: parecer_administrativo
+          type: string
+        - name: parecer_tecnico
+          type: string
+        - name: valor_apurado
+          type: geopoint
+        - name: valor_apresentado
+          type: string
+        - name: valor_total_pagar
+          type: geopoint
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Ipsemg_reembolso_medico
