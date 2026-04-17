@@ -1,10 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.142,
+  "time": 0.101,
   "errors": [],
   "tasks": [
     {
       "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -91,7 +92,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Reembolso Médico",
+        "title": "Insira um título humanamente legível para este recurso.",
         "stats": {
           "hash": "e6a54dc29682c3735cf2e1216a2e90d6",
           "bytes": 468446,
@@ -99,7 +100,7 @@
           "rows": 1973
         }
       },
-      "time": 0.126,
+      "time": 0.09,
       "scope": [
         "hash-count-error",
         "byte-count-error",
